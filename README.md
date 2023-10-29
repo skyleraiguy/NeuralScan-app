@@ -26,8 +26,8 @@ The results of the disorder detection will be displayed in the application after
 
 📂 **[Root Directory]**
 
-- [README.md]: Overview and usage guidelines.
-- [LICENSE]: Project's usage terms.
+- [/README.md]: Overview and usage guidelines.
+- [/LICENSE]: Project's usage terms.
 
 📂 **[Source Code Directory])**
 
