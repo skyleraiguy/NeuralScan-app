@@ -1,7 +1,13 @@
 # .gitignore
-*.log
-*.pyc
-__pycache__/
-.DS_Store
+# Node modules
 node_modules/
-dist/
+
+# Environment variables
+.env
+
+# Python compiled files
+*.pyc
+
+# Other unnecessary files
+*.log
+.DS_Store
