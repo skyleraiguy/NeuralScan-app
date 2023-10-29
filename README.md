@@ -24,42 +24,42 @@ The results of the disorder detection will be displayed in the application after
 
 ## Repository Structure
 
-📂 **[Root Directory](https://github.com/reworkd/AgentGPT/tree/main/.github)**
+📂 **[Root Directory]**
 
-- [README.md](https://github.com/reworkd/AgentGPT/edit/main/README.md): Overview and usage guidelines.
-- [LICENSE](https://github.com/suntzu22/NeuralScan/blob/main/LICENSE): Project's usage terms.
+- [README.md]: Overview and usage guidelines.
+- [LICENSE]: Project's usage terms.
 
-📂 **Source Code Directory (/src)**
+📂 **[Source Code Directory])**
 
-- /data_processing: Scripts for MEG signal processing.
+- [/data_processing](): Scripts for MEG signal processing.
 - /model: Scripts related to the deep neural network model.
 - /ui: Scripts for the user interface.
 
-📂 **Test Directory (/test)**
+📂 **[Test Directory] (/test)**
 
 - Test scripts and data for quality control.
 
-📂 **Documentation Directory (/docs)**
+📂 **[Documentation Directory] (/docs)**
 
 - Detailed descriptions, API references, and user manuals.
 
-📂 **Data Directory (/data)**
+📂 **[Data Directory] (/data)**
 
 - Sample data for testing (no real patient data).
 
-📂 **Scripts Directory (/scripts)**
+📂 **[Scripts Directory] (/scripts)**
 
 - Utility scripts for data preprocessing, model training, etc.
 
-📂 **Results Directory (/results)**
+📂 **[Results Directory] (/results)**
 
 - Output data, including model predictions and metrics.
 
-📂 **Contrib Directory (/contrib)**
+📂 **[Contrib Director]y (/contrib)**
 
 - Contributions from other developers.
 
-📄 .gitignore: Specifies files and directories to ignore.
+📄 [.gitignore]: Specifies files and directories to ignore.
 
 This organized structure ensures efficient collaboration, easy navigation, and effective version control.
 
