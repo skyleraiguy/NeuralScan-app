@@ -67,6 +67,6 @@ For more details, refer to the project's documentation or contact the support te
 
 ## License
 
-This project is licensed under [License Name]. See the LICENSE file for details.
+This project is licensed under [MIT]. See the LICENSE file for details.
 
 
