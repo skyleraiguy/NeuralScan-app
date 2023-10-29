@@ -67,6 +67,6 @@ For more details, refer to the project's documentation or contact the support te
 
 ## License
 
-This project is licensed under [LICENSE]. See the LICENSE file for details.
+This project is licensed under [LICENSE](https://github.com/suntzu22/NeuralScan/blob/main/LICENSE). See the LICENSE file for details.
 
 
