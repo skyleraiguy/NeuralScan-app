@@ -26,8 +26,8 @@ The results of the disorder detection will be displayed in the application after
 
 📂 **[Root Directory]**
 
-- [/README.md]: Overview and usage guidelines.
-- [/LICENSE]: Project's usage terms.
+- [README.md](): Overview and usage guidelines.
+- [LICENSE](): Project's usage terms.
 
 📂 **[Source Code Directory])**
 
@@ -35,27 +35,27 @@ The results of the disorder detection will be displayed in the application after
 - /model: Scripts related to the deep neural network model.
 - /ui: Scripts for the user interface.
 
-📂 **[Test Directory] (/test)**
+📂 **[Test Directory]() (/test)**
 
 - Test scripts and data for quality control.
 
-📂 **[Documentation Directory] (/docs)**
+📂 **[Documentation Directory]() (/docs)**
 
 - Detailed descriptions, API references, and user manuals.
 
-📂 **[Data Directory] (/data)**
+📂 **[Data Directory]() (/data)**
 
 - Sample data for testing (no real patient data).
 
-📂 **[Scripts Directory] (/scripts)**
+📂 **[Scripts Directory]() (/scripts)**
 
 - Utility scripts for data preprocessing, model training, etc.
 
-📂 **[Results Directory] (/results)**
+📂 **[Results Directory]() (/results)**
 
 - Output data, including model predictions and metrics.
 
-📂 **[Contrib Director]y (/contrib)**
+📂 **[Contrib Directory]() (/contrib)**
 
 - Contributions from other developers.
 
