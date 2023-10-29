@@ -24,16 +24,16 @@ The results of the disorder detection will be displayed in the application after
 
 ## Repository Structure
 
-📂 **[Root Directory]**
+📂 **[Root Directory]()**
 
 - [README.md](): Overview and usage guidelines.
 - [LICENSE](): Project's usage terms.
 
-📂 **[Source Code Directory])**
+📂 **[Source Code Directory]()**
 
 - [/data_processing](): Scripts for MEG signal processing.
-- /model: Scripts related to the deep neural network model.
-- /ui: Scripts for the user interface.
+- [/model](): Scripts related to the deep neural network model.
+- [/ui](): Scripts for the user interface.
 
 📂 **[Test Directory]() (/test)**
 
