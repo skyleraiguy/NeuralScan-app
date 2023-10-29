@@ -59,7 +59,7 @@ The results of the disorder detection will be displayed in the application after
 
 - Contributions from other developers.
 
-📄 [.gitignore]: Specifies files and directories to ignore.
+📄 [.gitignore](): Specifies files and directories to ignore.
 
 This organized structure ensures efficient collaboration, easy navigation, and effective version control.
 
