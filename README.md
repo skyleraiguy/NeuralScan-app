@@ -1,9 +1,9 @@
 # NeuralScan
  (MEG) signals &amp; deep neural networks used to deduct neurological disorders. 
-# NeuroScan App
+# NeuralScan
 This is an open-source application that uses Magnetoencephalography (MEG) signals and a deep neural network to detect neurological disorders.
 
-# NeuroScan App: A Detailed Guide for Usage and Contribution
+# NeuralScan: A Detailed Guide for Usage and Contribution
 
 ## 1. Cloning the Repository
 
