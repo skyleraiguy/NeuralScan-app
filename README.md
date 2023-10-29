@@ -82,4 +82,101 @@ Then, go to the NeuroScan GitHub page and click on "New pull request". Select yo
 
 ## Conclusion
 
-This guide should provide you with all the information needed to start contributing to the NeuroScan app. If you have any questions, feel free to open an issue on the GitHub repository. Happy coding!
+# NeuroScan Application Structure and Git Repository Design
+
+## 1. Overview
+
+NeuroScan is an open-source application that uses Magnetoencephalography (MEG) signals and deep neural networks to detect neurological disorders. This document outlines the architecture of the application, the flow of data, and the function of each module and component.
+
+## 2. Application Architecture
+
+The NeuroScan application is designed using a modular architecture, which is divided into three main parts:
+
+1. **Data Acquisition Module**: This module is responsible for acquiring MEG signals from the hardware device.
+2. **Data Preprocessing Module**: This module preprocesses the raw MEG signals to make them suitable for analysis.
+3. **Neural Network Module**: This module uses deep learning algorithms to analyze the preprocessed MEG signals and detect neurological disorders.
+
+```python
+# Data Acquisition Module
+class DataAcquisition:
+    def acquire_data(self):
+        pass
+
+# Data Preprocessing Module
+class DataPreprocessing:
+    def preprocess_data(self):
+        pass
+
+# Neural Network Module
+class NeuralNetwork:
+    def train_model(self):
+        pass
+
+    def predict(self):
+        pass
+```
+
+## 3. Data Flow
+
+The data in the NeuroScan application flows sequentially through the modules:
+
+1. The **Data Acquisition Module** collects raw MEG signals from the hardware device.
+2. The raw MEG signals are then passed to the **Data Preprocessing Module**, where they are cleaned and transformed into a format suitable for analysis.
+3. The preprocessed MEG signals are then fed into the **Neural Network Module**, which uses deep learning algorithms to analyze the signals and detect neurological disorders.
+
+```python
+# Data Flow
+def main():
+    # Instantiate the modules
+    data_acquisition = DataAcquisition()
+    data_preprocessing = DataPreprocessing()
+    neural_network = NeuralNetwork()
+
+    # Acquire raw MEG signals
+    raw_data = data_acquisition.acquire_data()
+
+    # Preprocess the raw MEG signals
+    preprocessed_data = data_preprocessing.preprocess_data(raw_data)
+
+    # Train the neural network model
+    neural_network.train_model(preprocessed_data)
+
+    # Predict neurological disorders
+    predictions = neural_network.predict(preprocessed_data)
+
+    return predictions
+```
+
+## 4. Function of Each Module and Component
+
+- **Data Acquisition Module**: This module interfaces with the MEG hardware device to collect raw MEG signals. It ensures that the data is collected in a consistent and reliable manner.
+
+- **Data Preprocessing Module**: This module cleans and transforms the raw MEG signals. It removes noise and other irrelevant information from the signals, normalizes the signals to a standard range, and structures the signals into a format suitable for analysis.
+
+- **Neural Network Module**: This module uses deep learning algorithms to analyze the preprocessed MEG signals. It includes functions for training the neural network model and predicting neurological disorders based on the model.
+
+## 5. Git Repository Structure
+
+The Git repository for the NeuroScan application is structured as follows:
+
+- **/data**: This directory contains the raw and preprocessed MEG signals.
+- **/src**: This directory contains the source code for the application, divided into separate files for each module.
+- **/models**: This directory contains the trained neural network models.
+- **/docs**: This directory contains the documentation for the application.
+- **README.md**: This file provides an overview of the application and instructions for how to use it.
+- **.gitignore**: This file specifies which files and directories should be ignored by Git.
+
+```bash
+NeuroScan/
+├── data/
+├── src/
+│   ├── data_acquisition.py
+│   ├── data_preprocessing.py
+│   └── neural_network.py
+├── models/
+├── docs/
+├── README.md
+└── .gitignore
+```
+
+This structure ensures that the code, data, models, and documentation are organized in a clear and logical manner, making the application easy to understand and maintain.
