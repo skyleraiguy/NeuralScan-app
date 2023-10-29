@@ -24,10 +24,10 @@ The results of the disorder detection will be displayed in the application after
 
 ## Repository Structure
 
-📂 **Root Directory (/)**
+📂 **[Root Directory](https://github.com/reworkd/AgentGPT/tree/main/.github)**
 
-- README.md: Overview and usage guidelines.
-- LICENSE: Project's usage terms.
+- [README.md](https://github.com/reworkd/AgentGPT/edit/main/README.md): Overview and usage guidelines.
+- [LICENSE](https://github.com/suntzu22/NeuralScan/blob/main/LICENSE): Project's usage terms.
 
 📂 **Source Code Directory (/src)**
 
