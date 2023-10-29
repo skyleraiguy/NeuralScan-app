@@ -180,3 +180,52 @@ NeuroScan/
 ```
 
 This structure ensures that the code, data, models, and documentation are organized in a clear and logical manner, making the application easy to understand and maintain.
+
+NeuroScan Application Installation and Usage Guide
+Introduction
+NeuroScan is an open-source application that uses Magnetoencephalography (MEG) signals and deep neural networks to detect neurological disorders. This guide will provide detailed instructions on how to install and use the NeuroScan application.
+
+Hardware and Software Requirements
+Hardware Requirements
+A computer system with a minimum of 8GB RAM and an i5 processor or equivalent. This is to ensure smooth operation of the application and the processing of MEG signals.
+
+A Magnetoencephalography (MEG) device. This is necessary to capture the MEG signals that the application will process.
+
+Software Requirements
+Operating System: Windows 10, MacOS X, or Linux (Ubuntu 18.04 or later).
+
+Python 3.7 or later: The NeuroScan application is built on Python, and this is necessary for running the application.
+
+Git: This is necessary for cloning the repository and getting the latest version of the application.
+
+Installation Steps
+Install Python and Git on your machine if they are not already installed. You can download Python from the official website (https://www.python.org/downloads/) and Git from its official website (https://git-scm.com/downloads).
+
+Open your terminal or command prompt.
+
+Clone the NeuroScan repository by typing the following command and pressing enter:
+
+Copy Code
+git clone https://github.com/NeuroScan/NeuroScan.git
+Navigate to the cloned repository by typing the following command and pressing enter:
+
+Copy Code
+cd NeuroScan
+Install the necessary Python packages by typing the following command and pressing enter:
+
+Copy Code
+pip install -r requirements.txt
+Run the application by typing the following command and pressing enter:
+
+Copy Code
+python main.py
+How to Use Each Module and Component
+Data Acquisition Module: This module is responsible for acquiring MEG signals from the MEG device. To use this module, connect your MEG device to your computer and click on the "Start Acquisition" button in the application.
+
+Data Processing Module: This module processes the acquired MEG signals. To use this module, click on the "Process Data" button after the data acquisition is complete.
+
+Neural Network Module: This module uses a deep neural network to detect neurological disorders from the processed MEG signals. To use this module, click on the "Detect Disorders" button after the data processing is complete.
+
+Results Module: This module displays the results of the disorder detection. To use this module, simply look at the results displayed in the application after the disorder detection is complete.
+
+Please note that this guide assumes a basic level of familiarity with using a computer and command line interfaces. If you encounter any issues during the installation or usage of the NeuroScan application, please refer to the troubleshooting section in the application's documentation or contact the support team.
