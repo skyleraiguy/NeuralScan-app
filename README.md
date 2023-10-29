@@ -230,22 +230,22 @@ Results Module: This module displays the results of the disorder detection. To u
 
 The structure of the NeuroScan application's open-source repository will be designed to ensure easy navigation, efficient collaboration, and effective version control. Here's a detailed plan for the repository structure:
 
-**Root Directory (/)**: This is the main directory of the project. It will contain the README.md file that provides an overview of the project, installation instructions, and usage guidelines. It will also contain the LICENSE file that outlines the terms under which the project can be used.
+- **Root Directory (/)**: This is the main directory of the project. It will contain the README.md file that provides an overview of the project, installation instructions, and usage guidelines. It will also contain the LICENSE file that outlines the terms under which the project can be used.
 
-**Source Code Directory (/src)**: This directory will contain all the source code files for the NeuroScan application. It will be further divided into subdirectories based on the functionality they provide. For example, /src/data_processing for scripts related to MEG signal processing, /src/model for scripts related to the deep neural network model, and /src/ui for scripts related to the user interface.
+- **Source Code Directory (/src)**: This directory will contain all the source code files for the NeuroScan application. It will be further divided into subdirectories based on the functionality they provide. For example, /src/data_processing for scripts related to MEG signal processing, /src/model for scripts related to the deep neural network model, and /src/ui for scripts related to the user interface.
 
-**Test Directory (/test)**: This directory will contain all the test scripts and test data for the NeuroScan application. It ensures that any changes in the code do not break the application.
+- **Test Directory (/test)**: This directory will contain all the test scripts and test data for the NeuroScan application. It ensures that any changes in the code do not break the application.
 
-**Documentation Directory (/docs)**: This directory will contain all the documentation files for the NeuroScan application. It will include detailed descriptions of the application's functionality, API references, and user manuals.
+- **Documentation Directory (/docs)**: This directory will contain all the documentation files for the NeuroScan application. It will include detailed descriptions of the application's functionality, API references, and user manuals.
 
-**Data Directory (/data)**: This directory will contain sample data files that can be used to test the NeuroScan application. Due to the sensitive nature of medical data, this directory will not contain real patient data.
+- **Data Directory (/data)**: This directory will contain sample data files that can be used to test the NeuroScan application. Due to the sensitive nature of medical data, this directory will not contain real patient data.
 
-**Scripts Directory (/scripts)**: This directory will contain utility scripts for tasks like data preprocessing, model training, and performance evaluation.
+- **Scripts Directory (/scripts)**: This directory will contain utility scripts for tasks like data preprocessing, model training, and performance evaluation.
 
-**Results Directory (/results)**: This directory will contain the output of the NeuroScan application, such as model predictions and performance metrics.
+- **Results Directory (/results)**: This directory will contain the output of the NeuroScan application, such as model predictions and performance metrics.
 
-**Contrib Directory (/contrib)**: This directory will contain contributions from other developers, such as additional scripts or enhancements to the existing code.
+- **Contrib Directory (/contrib)**: This directory will contain contributions from other developers, such as additional scripts or enhancements to the existing code.
 
-.gitignore file: This file will list all the files and directories that should be ignored by Git. This typically includes compiled files, log files, and local configuration files.
+- .gitignore file: This file will list all the files and directories that should be ignored by Git. This typically includes compiled files, log files, and local configuration files.
 
 This structure ensures that the repository is organized and easy to navigate. It separates different types of files into their own directories, making it easier for developers to find the files they need. It also includes a dedicated directory for tests, which is crucial for maintaining the quality of the code.application's documentation or contact the support team.
