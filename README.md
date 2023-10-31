@@ -1,6 +1,6 @@
 # **NeuralScan App**
 
-🧠 **Welcome to NeuralScan** 🧠
+## 🧠 **Welcome to NeuralScan** 🧠
 
 NeuralScan is an open-source application designed to detect neurological disorders using Magnetoencephalography (MEG) signals and deep neural networks. This README provides an overview of the application's structure and usage guidelines.
 
