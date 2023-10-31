@@ -24,12 +24,12 @@ The results of the disorder detection will be displayed in the application after
 
 ## **Repository Structure**
 
-📂 [Root Directory]()
+**📂 [Root Directory]()**
 
 - [README.md](): Overview and usage guidelines.
 - [LICENSE](): Project's usage terms.
 
-📂 [Source Code Directory]()
+**📂 [Source Code Directory]()**
 
 - [/data_processing](): Scripts for MEG signal processing.
 - [/model](): Scripts related to the deep neural network model.
@@ -39,23 +39,23 @@ The results of the disorder detection will be displayed in the application after
 
 - Test scripts and data for quality control.
 
-📂 **[Documentation Directory]()**
+**📂 [Documentation Directory]()**
 
 - Detailed descriptions, API references, and user manuals.
 
-📂 **[Data Directory]()**
+**📂 [Data Directory]()**
 
 - Sample data for testing (no real patient data).
 
-📂 **[Scripts Directory]()**
+**📂 [Scripts Directory]()**
 
 - Utility scripts for data preprocessing, model training, etc.
 
-📂 **[Results Directory]() **
+**📂 [Results Directory]()**
 
 - Output data, including model predictions and metrics.
 
-📂 **[Contrib Directory]() **
+**📂 [Contrib Directory]()**
 
 - Contributions from other developers.
 
@@ -67,6 +67,6 @@ For more details, refer to the project's documentation or contact the support te
 
 ## License
 
-This project is licensed under [LICENSE](https://github.com/suntzu22/NeuralScan/blob/main/LICENSE). See the LICENSE file for details.
+This project is licensed under [MIT LICENSE](https://github.com/suntzu22/NeuralScan/blob/main/LICENSE). See the LICENSE file for details.
 
 
