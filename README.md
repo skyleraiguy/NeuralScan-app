@@ -1,4 +1,4 @@
-# NeuralScan Application
+**# NeuralScan App**
 
 🧠 **Welcome to NeuralScan** 🧠
 
