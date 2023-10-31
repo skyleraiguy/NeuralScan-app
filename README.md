@@ -6,36 +6,36 @@ NeuralScan is an open-source application designed to detect neurological disorde
 
 ## Usage Guide
 
-### Data Acquisition Module
+### **Data Acquisition Module**
 
 Click the "Start Acquisition" button in the application to initiate the data acquisition process.
 
-### Data Processing Module
+### **Data Processing Module**
 
 After data acquisition is complete, click the "Process Data" button to process the acquired MEG signals.
 
-### Neural Network Module
+### **Neural Network Module**
 
 Once data processing is complete, click the "Detect Disorders" button to use a deep neural network to detect neurological disorders from the processed MEG signals.
 
-### Results Module
+### **Results Module**
 
 The results of the disorder detection will be displayed in the application after the process is complete.
 
-## Repository Structure
+## **Repository Structure**
 
-📂 **[Root Directory]()**
+📂 [Root Directory]()
 
 - [README.md](): Overview and usage guidelines.
 - [LICENSE](): Project's usage terms.
 
-📂 **[Source Code Directory]()**
+📂 [Source Code Directory]()
 
 - [/data_processing](): Scripts for MEG signal processing.
 - [/model](): Scripts related to the deep neural network model.
 - [/ui](): Scripts for the user interface.
 
-📂 **[Test Directory]()**
+**📂 [Test Directory]()**
 
 - Test scripts and data for quality control.
 
