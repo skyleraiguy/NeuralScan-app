@@ -35,27 +35,27 @@ The results of the disorder detection will be displayed in the application after
 - [/model](): Scripts related to the deep neural network model.
 - [/ui](): Scripts for the user interface.
 
-📂 **[Test Directory]() (/test)**
+📂 **[Test Directory]()**
 
 - Test scripts and data for quality control.
 
-📂 **[Documentation Directory]() (/docs)**
+📂 **[Documentation Directory]()**
 
 - Detailed descriptions, API references, and user manuals.
 
-📂 **[Data Directory]() (/data)**
+📂 **[Data Directory]()**
 
 - Sample data for testing (no real patient data).
 
-📂 **[Scripts Directory]() (/scripts)**
+📂 **[Scripts Directory]()**
 
 - Utility scripts for data preprocessing, model training, etc.
 
-📂 **[Results Directory]() (/results)**
+📂 **[Results Directory]() **
 
 - Output data, including model predictions and metrics.
 
-📂 **[Contrib Directory]() (/contrib)**
+📂 **[Contrib Directory]() **
 
 - Contributions from other developers.
 
